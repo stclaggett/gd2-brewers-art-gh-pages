@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Montaga' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,' rel='stylesheet' type='text/css'>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+  <title>BREWER'S ART</title>
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/skeleton.css" rel="stylesheet">
+  
+  <link href='http://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet"  href="js/jquery-ui-1.10.3.custom.min.js">
+		
+  <style type="text/css">
+  
+
+ html{background-image: url(img/bg-texture-bk-dark.jpg);} 
+   body{font-family: hoefler; color:rgba(255,255,255,0.3); }  
+  .site-header{width: auto; background-repeat:repeat;}
+  .navigation{ padding: 10px; background-color: rgba(39,36,30,.8); font-size: 30px; font-family: 'Lato', sans-serif; text-align: center; }
+  a{text-decoration:none; color: rgba(255,255,255,0.6);}
+  a:hover{color:rgba(255,255,255,0.2); text-decoration: none;}
+  .logo{background-color: rgba(255,255,255,0); margin-bottom:60px; margin-top: 40px;}
+  
+  #headerImage img {
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+  #directions{padding-top:0; padding-bottom:10px; padding-left: 80px; }
+  
+  .logo img {display: block; margin: 0 auto;}
+  
+  .address{font-family: hoefler; text-align: center;}
+  p{margin:0;}
+
+  .title { background:url(img/spiral-01.png) left no-repeat; padding: 10px; margin: 0; font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase; font-size: 30px; padding-bottom: 5px; padding-top:30px; color: rgba(142,111,49,0.9); }
+  
+  .drink { padding-bottom: 20px; font-size: 24px; color: rgba(142,111,50,1); background:none; }
+  
+  .menu_section {margin-bottom:60px; height:auto;}
+
+
+  .menu_section img { max-width: 100%;}
+  
+  .menu_image { overflow: hidden; border-radius: 50%;}
+  
+  .menu_image img { width: auto; max-width: inherit; height: 340px;}
+
+  .menu_section .menu_items {float: right; margin-left: 0; background-color: rgba(39,36,30,.8);}
+
+  
+  .item-title { margin: 0; padding-top: 15px; font-family: 'Montaga', serif; font-size: 16px; color: rgba(255,255,255,0.6); text-align:left; padding-left:50px; text-indent: -17px; text-transform:uppercase;}
+  
+  .drink-type {padding-top: 10px; padding-left: 10px; text-indent: 0px; text-transform:uppercase;}
+  
+  .stuff{margin:0; padding-bottom: 15px; font-size: 14px; padding-left: 33px; color:rgba(142,111,49,0.95); text-transform:capitalize; font-family: 'Duru Sans';}
+
+  .drink-stuff{margin:0; font-size: 14px; padding-left: 33px; color:rgba(142,111,50,1); font-family: 'Duru Sans'; text-transform:capitalize;}
+  
+  
+  .price{padding-left: 5px; padding-top: 15px; float: left; font-size: 16px; font-family: serif;color: rgba(255,255,255,0.6);}
+
+  .hr-middle{margin-left:auto; margin-right:auto; width:60%; height:0.07em; border:none; background-color:rgba(255,255,255,0.3);}
+
+  .menu_section{margin-top:10px;}
+
+  .footer{text-align: center; color: rgba(255,255,255,0.6); background-color: rgba(39,36,30,.8); height: 70px; padding-top: 20px; padding-bottom: 10px; font-family: 'Lato', sans-serif; font-size: 20px; }
+  
+  .mainnav{width: 100%;
+  }
+  
+  
+
+  
+  li{display:inline-block;}
+  
+  .icon{opacity: .5;}
+  .icon:hover{opacity:1;}
+
+  .navitems{padding-left:25px;}
+  
+  
+  @media (max-width:600px) {.navitems{display:block;}} 
+  
+  @media (max-width:800px) {.navitems{font-size: 20px;}}
+  /* drink menus */
+  </style>
+  </head>
+
+<body>
+  <!--[if lt IE 7]>
+	  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  <!-- Add your site or application content here -->
+<div class="sixteen columns">
+  <div class="site-header">
+    <ul class="navigation sixteen columns mainnav">
+    <li class="navitems"> <a href="#appetizers"> MENU</a></li>
+    <li class="navitems"> <a href="#drinks">DRINKS</a></li>
+    <li class="navitems"> <a href="http://www.opentable.com/the-brewers-art-reservations-baltimore?restref=45061">RESERVATIONS</a>	</li>	
+    <li class="navitems"> <a href="#location"> HOURS/LOCATION</a></li>
+    </ul>
+  </div>
+ </div>
+
+  
+  
+  
+<div class="container" id="menu">
+
+
+<div id="headerImage" class="sixteen columns">  
+   <div class="logo">
+ 
+   	<img alt="" src="img/brewers_logo.png">
+      </div>  
+         </div>
+
+    <!-- Start Bar Fare Section -->
+
+    <div class="menu_section clearfix ">
+      <div class="menu_items">
+      <div id="appetizers">
+        <p class="title">BAR FARE</p></div>
+        <hr class="hr-middle">
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">7</p>
+          <p class="item-title">Baked Mac-n-Cheese</p>
+          <p class="price">15</p>
+          <p class="item-title">The Sailor</p>
+          <p class="stuff">Housemade Pastrami, Binkert's Knackwurst, Pickled Summer Beans, Gruyere, Black Garlic Mustard with a side of Rosemary Garlic Fries</p>
+        </div>
+        <!-- Menu Item End -->		
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">10</p>
+          <p class="item-title">Heirloom Yellow Lentil Wrap</p>
+          <p class="stuff">Beemster XO, Green Harissa, with Rosemary Garlic Fries</p>
+          <p class="price">12</p>
+          <p class="item-title">BBQ Duck Pita</p>
+          <p class="stuff">Red Cabbage Slaw, Bread & Butter Shallots, Spicy Duck Fat Mayonnaise, served with Rosemary Garlic Fries</p>
+        </div>
+        <!-- Menu Item End -->		
+      	<!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">5</p>
+          <p class="item-title">Brewer's Art Rosemary Garlic Fries</p>
+          <p class="price">12</p>
+          <p class="item-title">Brewer's Art Cheeseburger</p>
+          <p class="stuff">8 oz Fresh Ground Beef Cooked to Your Temperature with Vermont Sharp Cheddar, Tomato, Lettuce, Onion and Rosemary Garlic Fries.  Add Bacon for 2</p>
+        </div>
+        <!-- Menu Item End -->
+      </div>
+    </div>
+    
+    <!-- End Bar Fare Section -->  
+
+
+    <!-- Start Appetizer Section -->
+
+    <div class="menu_section clearfix ">
+      <div class="menu_items">
+      <div id="appetizers">
+        <p class="title">APPETIZERS</p></div>
+        <hr class="hr-middle">
+      	<!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">8</p>
+          <p class="item-title">AUSTRIAN STYLE CHEESE SPREAD</p>
+          <p class="stuff">Hedgehog Mushroom Duxelle</p>
+          <p class="price">10</p>
+          <p class="item-title">CRISPY RED THUMB POTATOES</p>
+          <p class="stuff">Warm Keswick Creamery Tomme, Smoked Pear Butter, Walnut Streusel, Fig Gastrique</p>
+          <p class="price">14</p>
+          <p class="item-title">SAFFRON CAVATELLI</p>
+          <p class="stuff">Veal Ragu, Meyer Lemon Gremolata</p>
+        </div>
+        <!-- Menu Item End -->
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">7</p>
+          <p class="item-title">SUNCHOKE BISQUE</p>
+          <p class="stuff">Poppy seed biscotti</p>
+          <p class="price">12</p>
+          <p class="item-title">KASEKREINER SAUSAGE</p>
+          <p class="stuff">Pumpernickel, Fried Farm Eggs, Honey Mustard Hollandaise, Green Chile Emulsion</p>
+          <p class="price">13</p>
+          <p class="item-title">BAKED JAMES RIVER OYSTERS</p>
+          <p class="stuff">Pancetta, Gouda, Harissa, Chives, Breadcrumbs</p>
+        </div>
+        <!-- Menu Item End -->		
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">12</p>
+          <p class="item-title">STEAMED SEWANSECOTT CLAMS</p>
+          <p class="stuff">Meyer Lemon, Aleppo Pepper, Green Onion, Crouton</p>
+          <p class="price">16</p>
+          <p class="item-title">WAGON WHEEL RANCH GOAT GOULASH</p>
+          <p class="stuff">Short Grain Rice, Cherry Glen Crottin</p>
+          <p class="price">16</p>
+          <p class="item-title">VENISON TARTARE</p>
+          <p class="stuff">Violet Mustard, Chervil, Farm Egg Yolk, Truffled Butter Crackers</p>
+        </div>
+        <!-- Menu Item End -->		
+      </div>
+    </div>
+    
+    <!-- End Appetizer Section -->   
+    
+  
+  <div class="container menu">
+        
+    <!-- Start Entree Section -->
+
+    <div class="menu_section clearfix ">
+      <div class="menu_items">
+
+        <p class="title">ENTREES</p>
+        <hr class="hr-middle">
+
+      	<!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">18</p>
+          <p class="item-title">WHITE YAM GRATIN</p>
+          <p class="stuff">Piquillo Pepper Soubise, Roasted Oyster Mushrooms, Bread and Butter Shallots, Baby Arugula, Hazelnut Oil</p>
+          <p class="price">25</p>
+          <p class="item-title">SPECK WRAPPED BERKSHIRE PORK LOIN</p>
+          <p class="stuff">Crispy Kale, Forest Mushroom Purée, Poached Cranberries, Sherry Reduction</p>
+        </div>
+        <!-- Menu Item End -->
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">26</p>
+          <p class="item-title">VEAL ROULADEN</p>
+          <p class="stuff">Smoked Veal Sausage and Cornichon Stuffing, Dill Spätzle, Onion Gravy</p>
+          <p class="price">28</p>
+          <p class="item-title">SEARED DIVER SCALLOPS</p>
+          <p class="stuff">Red Lentil Purée, Duck Speck, Wilted Spinach, Cinnamon Vinaigrette</p>
+          <p class="price">26</p>
+          <p class="item-title">ROASTED SKUNA BAY SALMON</p>
+          <p class="stuff">Golden Beet Borscht, Dressed Red Cabbage, Salmon Roe, Green Onion</p>
+        </div>
+        <!-- Menu Item End -->		
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">22</p>
+          <p class="item-title">HALF KCC FARMS CHICKEN</p>
+          <p class="stuff">Sautéed Breast, Confit Leg, hen-of-the-woods Mushrooms, Caramelized Squash Purée, Spicy Kraut</p>
+          <p class="price">28</p>
+          <p class="item-title">STEAK FRITES</p>
+          <p class="stuff">Grilled Vintage Hanger Steak, Rosemary Garlic Fries, Red Wine Shallot Sauce</p>
+        </div>
+        <!-- Menu Item End -->		
+      </div>
+    </div>
+    
+    <!--Entree section end--> 
+    
+  </div>    
+  <div class="container menu">
+    
+    <!-- Start dessert Section -->
+
+    <div class="menu_section clearfix ">
+      <div class="menu_items">
+        <p class="title">DESSERT</p>
+        <hr class="hr-middle">
+      	<!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">8</p>
+          <p class="item-title">CHEESECAKE</p>
+          <p class="stuff">Vanilla Bean Goat Cheese, Housemade Peach Jam, Whipped Cream</p>
+          <p class="price">8</p>
+          <p class="item-title">ALMOST BREAD PUDDING</p>
+          <p class="stuff">Semolina Custard, Apricots, and Cherries</p>
+        </div>
+        <!-- Menu Item End -->
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">8</p>
+          <p class="item-title">PUMPKIN CAKE</p>
+          <p class="stuff">Pumpkin spice cake with candied ginger, rum caramel cream cheese frosting</p>
+          <p class="price">7</p>
+          <p class="item-title">CHOCOLATE PROLETARY TORTE</p>
+          <p class="stuff">Dark Chocolate Cake, a hint of Proletary Ale, Chocolate Ganache</p>
+        </div>
+        <!-- Menu Item End -->		
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="price">9</p>
+          <p class="item-title">PECAN ALMOND TART</p>
+          <p class="stuff">Brown Butter Filling, Almond Shortbread Crust, Drizzled with Chocolate</p>
+          <p class="price">7</p>
+          <p class="item-title">PHYLLO APPLE TART</p>
+          <p class="stuff">Crème Anglaise, Caramel, and Raspberry Sauce</p>
+        </div>
+        <!-- Menu Item End -->		
+      </div>
+    </div>
+
+    
+		<!--END DESSERT section -->
+  </div>
+  
+  
+  <div class="container menu">
+    
+    <!-- Start dessert Section -->
+
+    <div class="menu_section clearfix ">
+      <div class="menu_items">
+      <div id="drinks">
+        <p class="title drinks">Drinks</p></div>
+        <hr class="hr-middle">
+      	<!-- Menu Item Start -->
+        <div class="one-third column">
+          <p class="drink title">Beer</p>
+          
+          <div class="items">
+          	<h4 class="item-title drink-type">HOUSE</h4>
+	        <p class="drink-stuff">Resurrection</p>
+	        <p class="drink-stuff">Ozzy</p>
+	        <p class="drink-stuff">Birdhouse</p>
+	        <p class="drink-stuff">St. Festivus</p>
+	        <p class="drink-stuff">Green Peppercorn Tripel (GPT)</p>
+	        <p class="drink-stuff">Sangreal</p>
+	        <p class="drink-stuff">Zodiac Ale</p>
+	        <p class="drink-stuff">Proletary Ale</p>
+          </div>
+          
+          <div class="items">
+            <h4 class="item-title drink-type">HOPS</h4>
+	        <p class="drink-stuff">Reissdorf Kolsch</p>
+	        <p class="drink-stuff">Maine Beer Co. Peeper</p>
+	        <p class="drink-stuff">Sly Fox Pikeland Pils</p>
+	        <p class="drink-stuff">Boulevard Double-Wide IPA</p>
+	        <p class="drink-stuff">L'Anjub Lug</p>
+	        <p class="drink-stuff">Lagunitas Daytime</p>
+	      </div>
+
+          <div class="items">
+            <h4 class="item-title drink-type">YEAST</h4>
+	        <p class="drink-stuff">Duvel</p>
+	        <p class="drink-stuff">De Ranke Saison</p>
+	        <p class="drink-stuff">Hopfenstark Station 7 Saison</p>
+	      </div>
+          
+          <div class="items">
+            <h4 class="item-title drink-type">WHEAT</h4>
+	        <p class="drink-stuff">Schneider Weisse</p>
+	        <p class="drink-stuff">Allagash White</p>
+	        <p class="drink-stuff">Pinkus Mueller Organic Hefe-Weizen</p>
+	        <p class="drink-stuff">Schneider Aventinus</p>
+	      </div>
+          
+          <div class="items">
+            <h4 class="item-title drink-type">MALT</h4>
+	        <p class="drink-stuff">Union Balt Altbier</p>
+	        <p class="drink-stuff">Monchshof Schwarzbier</p>
+	        <p class="drink-stuff">Maine Beer Co. Mean Old Tom</p>
+	        <p class="drink-stuff">Synebrochoff Porter</p>
+	        <p class="drink-stuff">L'Anjub Juliett</p>
+	      </div>
+          
+          <div class="items">
+            <h4 class="item-title drink-type">SPECIAL/RESERVE</h4>
+	        <p class="drink-stuff">Stillwater-Brewer's Art Debutante</p>
+	        <p class="drink-stuff">Local Option Dampf Loc</p>
+	        <p class="drink-stuff">Oude Beersel Oude Geuze Vielle</p>
+	        <p class="drink-stuff">Monocacy Riot Rye</p>
+	        <p class="drink-stuff">Terrapin Beer Co. So Fresh and So Green Green</p>
+	      </div>
+
+        </div>
+        <!-- Menu Item End -->
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+        	<p class="drink title">Wine</p>
+
+          <div class="items">
+          	<h4 class="item-title drink-type">RED by the Bottle</h4>
+	        <p class="drink-stuff">Camp Du Rouss 2008 Barbera D'Asti</p>
+	        <p class="drink-stuff">Inman Family 2009 Pinot Noir</p>
+	        <p class="drink-stuff">Cantina Zaccagnini 2010 Montepulciano</p>
+	        <p class="drink-stuff">Peachy Canyon 2010 Zinfandel</p>
+	        <p class="drink-stuff">Chateau Loudenne "B" 2009 Bordeaux</p>
+	        <p class="drink-stuff">Foppiano 2010 Petite Syrah</p>
+	        <p class="drink-stuff">Stolpman 2011 Organic Syrah</p>
+	        <p class="drink-stuff">Cristom 2011 Pinot Noir "Mt. Jefferson Cuvee</p>
+	        <p class="drink-stuff">Dry Creek 2008 "The Mariner"</p>
+	        <p class="drink-stuff">Justin 2011 Cabernet Sauvignon</p>
+	        <p class="drink-stuff">Speri 2010 Ripasso</p>
+	        <p class="drink-stuff">G.D. Vajra 2007 Barolo</p>
+          </div>
+
+          <div class="items">
+          	<h4 class="item-title drink-type">RED by the Glass</h4>
+	        <p class="drink-stuff">Lost Angel 2008 Mischief Blend</p>
+	        <p class="drink-stuff">Gougenheim 2009 Cabernet</p>
+	        <p class="drink-stuff">Garnacha de Fuego 2011</p>
+	        <p class="drink-stuff">Angeline Pinot Noir</p>
+	        <p class="drink-stuff">Santa Julia 2010 Malbec</p>
+	        <p class="drink-stuff">Cline Ancient Vines 2010 Zinfandel</p>
+          </div>
+
+          <div class="items">
+          	<h4 class="item-title drink-type">WHITE by the Bottle</h4>
+	        <p class="drink-stuff">Domaine Wachau 2010 Riesling</p>
+	        <p class="drink-stuff">Greywacke 2011 Sauvignon Blanc</p>
+	        <p class="drink-stuff">A to Z 2012 Pinot Gris</p>
+	        <p class="drink-stuff">Hnos. de Domingo Molina 2012 Torrontes "Hermanos"</p>
+	        <p class="drink-stuff">Jorge Ordonez 2011 Moscatel Seco "Botani"</p>
+	        <p class="drink-stuff">Wente 2012 Chardonnay "Riva Ranch"</p>
+	        <p class="drink-stuff">Huber Obere Steigen 2010 Grüner Veltliner</p>
+          </div>
+
+          <div class="items">
+          	<h4 class="item-title drink-type">WHITE by the Glass</h4>
+	        <p class="drink-stuff">Boekenoutskloof 2012 "Wolftrapp" White</p>
+	        <p class="drink-stuff">Domaine des Herbauges 2012 Chardonnay</p>
+	        <p class="drink-stuff">Essay 2012 Sauvignon Blanc</p>
+	        <p class="drink-stuff">Villa Wolf Pinot Gris</p>
+	        <p class="drink-stuff">Yalumba Christobel's 2011 Riesling</p>
+	        <p class="drink-stuff">Gran Back Brut Reserve Cava</p>
+          </div>
+
+        </div>
+        <!-- Menu Item End -->		
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+        	<p class="drink title">Whiskey</p>
+        	
+          <div class="items">
+          	<h4 class="item-title drink-type">Highland</h4>
+	        <p class="drink-stuff">Glenmorangie 10 year</p>
+	        <p class="drink-stuff">Oban 14 year</p>
+          </div>
+          <div class="items">
+          	<h4 class="item-title drink-type">Lowland</h4>
+	        <p class="drink-stuff">Auchentoshan 3 Wood</p>
+          	<h4 class="item-title drink-type">Speyside</p>
+	        <p class="drink-stuff">Macallen 12 year</p>
+	        <p class="drink-stuff">The Glenlivit 12 year</p>
+	        <p class="drink-stuff">Balvenie Doublewood 12 year</p>
+	        <p class="drink-stuff">Balvenie Doublewood 17 year</p>
+          </div>
+          <div class="items">
+          	<h4 class="item-title drink-type">Islay</h4>
+	        <p class="drink-stuff">Laphroaig 10 year</p>
+	        <p class="drink-stuff">Kilchomen Machir Bay</p>
+	        <p class="drink-stuff">Lagavulin 16 year</p>
+	        <p class="drink-stuff">Bowmore 18 year</p>
+	        <p class="drink-stuff">Lagavulin Distiller's Edition</p>
+          </div>
+          <div class="items">
+          	<h4 class="item-title drink-type">Islands</h4>
+	        <p class="drink-stuff">Talisker 10 year</p>
+          </div>
+          <div class="items">
+          	<h4 class="item-title drink-type">Small Batch Bourbon</h4>
+	        <p class="drink-stuff">Belle Meade Sour Mash</p>
+	        <p class="drink-stuff">Buffalo Trace</p>
+	        <p class="drink-stuff">Bulleit</p>
+	        <p class="drink-stuff">Woodford Reserve</p>
+	        <p class="drink-stuff">Waitsburg Bourbon</p>
+	        <p class="drink-stuff">George Dickel Barrel Select</p>
+	        <p class="drink-stuff">Basil Hayden</p>
+	        <p class="drink-stuff">Angel Envy</p>
+	        <p class="drink-stuff">Black Maple Hill 8 year</p>
+	        <p class="drink-stuff">Prichard's Double Chocolate</p>
+	        <p class="drink-stuff">Booker Noe</p>
+	        <p class="drink-stuff">Reservoir</p>
+          </div>
+          <div class="items">
+          	<h4 class="item-title drink-type">Rye</h4>
+	        <p class="drink-stuff">Bulleit Rye</p>
+	        <p class="drink-stuff">Pikesville</p>
+	        <p class="drink-stuff">Hochstaders Rock & Rye</p>
+	        <p class="drink-stuff">High West Rendezvous Rye</p>
+	        <p class="drink-stuff">Breukelen 77</p>
+	        <p class="drink-stuff">Templeton</p>
+          </div>
+          <div class="items">
+          	<h4 class="item-title drink-type">Micro Distilled</h4>
+	        <p class="drink-stuff">Corsair Triple Smoke Malt</p>
+	        <p class="drink-stuff" style="margin-bottom: 30px;">High West Campfire Whiskey</p>
+          </div>
+        </div>
+        <!-- Menu Item End -->		
+      </div>
+    </div>
+
+    
+		<!--END DESSERT section -->
+		
+    <!-- Start Location Section -->
+
+    <div class="menu_section clearfix ">
+      <div class="menu_items">
+      <div id="location">
+        <p class="title">Location & Hours</p></div>
+        <hr class="hr-middle">
+        <!-- Menu Item Start -->
+        <div class="one-third column">
+          <a href="https://maps.google.com/maps?f=d&source=s_q&hl=en&geocode=%3BCWRrUkLUvQQYFXO2VwIdPO1u-ymXbPttlgTIiTFYybvsvYM8DA&q=1106+North+Charles+Street,+Baltimore,+MD&aq=0&oq=1106+North+&sll=38.804821,-77.236966&sspn=2.953569,5.789795&ie=UTF8&hq=&hnear=1106+N+Charles+St,+Baltimore,+Maryland+21201&t=m&ll=39.314047,-76.617193&spn=0.013879,0.02223&z=14&vpsrc=6&iwloc=A&daddr=1106+N+Charles+St,+Baltimore,+MD+21201">
+         <img src="img/map.png" alt="GoogleMapOfBrewersArt" style="margin-bottom: 10px;">
+         <div class="item-title" id="directions" style="font-family: 'Lato', sans-serif;">Get Directions</div>
+	         
+         </a>
+        </div>
+        <!-- Menu Item End -->		
+      	<!-- Menu Item Start -->
+        <div class="two-thirds column">
+          <p class="item-title">Location</p>
+          <p class="stuff" style="text-transform: none;">The Brewer's Art is a restaurant and microbrewery located in a nineteenth century townhouse in historic Mount Vernon at:<br></p>
+          <p class="stuff" style="text-transform: none; font-size: 20px; margin-left: 24px; color: rgba(255,255,255,.7); font-family: 'Lato', sans-serif;"> 1106 North Charles Street<br> Baltimore, MD 21201</p>
+          <p class="item-title">Hours</p>
+          <p class="stuff" style="text-transform: none;"> We are open daily 4:00pm to 1:45am with our full dinner service starting at 5:00. We'll see you there!</p>
+		  </div>
+        <!-- Menu Item End -->
+      </div>
+    </div>
+    
+    <!-- End Location Section -->  
+		
+  </div>
+      </div>
+    </div>  
+        <!--menu Item End -->        
+		<!--END beers section -->
+	
+
+
+      
+     
+      </div><!-- one-third column -->
+
+       	 <!-- Menu Item End -->
+
+	   	 <!-- End menu-section -->
+  
+ <div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="footer">
+   	Feel free to call: (410) 547-6925, or e-mail us: <a href="mailto:info@thebrewersart.com">info@thebrewersart.com</a><br>
+    <a href="https://www.facebook.com/pages/Official-Brewers-Art-Fan-Page/53372142630?fref=ts"><img class="icon" src="img/facebook.png" onmouseover="this.src='img/facebook.png'" onmouseout="this.src='img/facebook.png'" /></a>
+ 	<a href="https://twitter.com/search?q=brewers%20art&src=typd"><img class="icon" src="img/twitter.png" onmouseover="this.src='img/twitter.png'" onmouseout="this.src='img/twitter.png'"  /></a>
+ </div>
+<!-- End #menu Container That goes around all of our content -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <script>
+window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+  </script> <script src="js/plugins.js"></script> <script src="js/main.js"></script> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+   <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+            
+            
+            
+            
+              <meta charset="utf-8">
+  
+ 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="../lib/jquery/jquery.js"%3E%3C/script%3E'));</script>
+
+  <script src="js/jquery.smooth-scroll.js"></script>
+  <script>
+    $(document).ready(function() {
+
+      $('ul.mainnav a').smoothScroll();
+
+      $('p.subnav a').click(function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+          scrollTarget: link.hash
+        });
+      });
+
+      $('#change-speed').on('click', function() {
+        var $p1 = $('ul.mainnav a').first(),
+            p1Opts = $p1.smoothScroll('options') || {};
+
+        p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+        $p1.smoothScroll('options', p1Opts);
+      });
+
+      $('button.scrollsomething').click(function() {
+        $.smoothScroll({
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '#findme'
+        });
+        return false;
+      });
+      $('button.scrollhorz').click(function() {
+        $.smoothScroll({
+          direction: 'left',
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '.horiz'
+        });
+        return false;
+      });
+
+    });
+
+  </script>
+		
+
+  </script>
+</body>
+</html>
